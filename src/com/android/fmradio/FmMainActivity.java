@@ -1023,7 +1023,7 @@ public class FmMainActivity extends Activity implements FmFavoriteEditDialog.Edi
 
     private void refreshPopupMenuItem(boolean enabled) {
         if (null != mMenuItemStationlList) {
-            mMenuItemStartRecord.setEnabled(enabled);
+            mMenuItemStartRecord.setEnabled(false); // force disable start recording menu item
         }
     }
 
